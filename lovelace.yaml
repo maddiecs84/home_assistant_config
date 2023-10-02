@@ -1,0 +1,10 @@
+mode: yaml
+resources: !include lovelace/resources.yaml
+dashboards:
+  lovelace-finance:
+    mode: yaml
+    filename: ui-lovelace-finance.yaml
+    title: Finance
+    icon: mdi:finance
+    show_in_sidebar: true
+    require_admin: true

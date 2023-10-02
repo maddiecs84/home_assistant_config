@@ -1,0 +1,38 @@
+title: Finance
+id: finance
+path: finance
+icon: mdi:finance
+cards:
+  - type: custom:mini-graph-card
+    entities:
+      - sensor.yahoofinance_see_l
+    graph: line
+    hour24: false
+    hours_to_show: 24
+    name: Seeing Machines - Last 24hrs
+    show:
+      extrema: true
+      icon: true
+      name: true
+  - type: custom:mini-graph-card
+    entities:
+      - sensor.yahoofinance_ftse
+    graph: line
+    hour24: false
+    hours_to_show: 24
+    name: FTSE 100 - Last 24hrs
+    show:
+      extrema: true
+      icon: true
+      name: true
+  - type: custom:mini-graph-card
+    entities:
+      - sensor.yahoofinance_gbpusd_x
+    graph: line
+    hour24: false
+    hours_to_show: 24
+    name: GBP/USD - Last 24hrs
+    show:
+      extrema: true
+      icon: true
+      name: true

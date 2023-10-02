@@ -1,0 +1,3 @@
+title: Finance
+views:
+  - !include lovelace/view-finance.yaml

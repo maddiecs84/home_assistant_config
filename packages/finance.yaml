@@ -1,0 +1,5 @@
+yahoofinance:
+  symbols:
+    - SEE.L
+    - ^FTSE
+    - GBPUSD=X
